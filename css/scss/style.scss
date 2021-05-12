@@ -1,18 +1,1 @@
-$violet: hsl(257, 40%, 49%);
-$magenta: hsl(300, 69%, 71%);
-
-@mixin poppins($weight: 400) {
-  @if $weight == 600 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-  }
-  @else if $weight == 400 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-  }
-}
-
-@mixin opens {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
+@import 'basics';
