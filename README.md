@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page
 
-[Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ## The Challenge
 
@@ -22,4 +22,4 @@ Link to the live preview website:
 
 ## Link to the challenge
 
-If you want to check the ![page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) of the challenge.
+If you want to check the [page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) of the challenge.
