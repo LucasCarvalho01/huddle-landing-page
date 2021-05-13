@@ -1,10 +1,14 @@
 $violet: hsl(257, 40%, 49%);
 $magenta: hsl(300, 69%, 71%);
+$white: #fff;
+$breakpoint: 840px;
 
 @mixin poppins($weight: 400) {
   @if $weight == 600 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: clamp(2rem, 2.4rem, 3.8vw);
+    line-height: 1.5;
   }
   @else if $weight == 400 {
     font-family: 'Poppins', sans-serif;
@@ -15,4 +19,35 @@ $magenta: hsl(300, 69%, 71%);
 @mixin opens {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+@mixin box-shadow() {
+  box-shadow: 0px 4px 12px 3px rgba(0,0,0,.3);
+}
+
+@mixin media($max-width, $min-width: 0) {
+  @if $min-width > 0 {
+    @media only screen and (max-width: #{$max-width}) and (min-width: #{$min-width}) {
+      @content;
+    }
+  }
+  @else if $min-width == 0 {
+    @media only screen and (max-width: #{$max-width}) {
+      @content;
+    }
+  }
+}
+
+// Reset
+*, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: $white;
+}
+
+img {
+  display: block;
 }
