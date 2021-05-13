@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+[Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
 ## The Challenge
 
@@ -12,7 +12,7 @@ Code the landing page according to the designs provided. It has responsive layou
 
 Link to the live preview website:
 
-![Here](https://flamboyant-spence-2f6a16.netlify.app/)
+[Here](https://flamboyant-spence-2f6a16.netlify.app/)
 
 ## Built With
 
